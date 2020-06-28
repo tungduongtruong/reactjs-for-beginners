@@ -13,7 +13,7 @@ React is used to build Single Page Applications and React allows us to create re
 
 React was created by Jordan Walke, a software engineer at Facebook, who released an early prototype of React called "FaxJS". It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012. It was open-sourced at JSConf US in May 2013.
 
-Current version of React.JS is V16.13.0 (26 February 2020).
+Current version of React is V16.13.0 (26 February 2020).
 
 ## 2. Virtual DOM
 
@@ -30,7 +30,26 @@ What is the benefit of Virtual DOM?
 - Then React figures out which part is new and only updates that specific part in the Virtual DOM
 - Finally, React copies only the new parts of the Virtual DOM to the actual DOM, rather than completely rewriting it.
 
-## 3.JSX
+## 3. JSX
+
+What is JSX? JSX stands for JavaScript XML, allows us to write HTML in React. JSX is basically used to write HTML tags inside JavaScript.
+
+You don’t have to use JSX with React, but it is strongly recommended. JSX simplifies React and makes it easier to read.
+
+```
+import React from 'react';
+
+class App extends React.Component {
+   render() {
+      return (
+         <div>
+            Hello World!!!
+         </div>
+      );
+   }
+}
+export default App;
+```
 
 ## 4. Lifecycle
 
