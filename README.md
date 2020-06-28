@@ -9,13 +9,13 @@ React (also known as React.js or ReactJS) is an open-source JavaScript Library f
 
 React is used to build Single Page Applications and React allows us to create reusable UI components.
 
-1. History
+##1. History
 
 React was created by Jordan Walke, a software engineer at Facebook, who released an early prototype of React called "FaxJS". It was first deployed on Facebook's News Feed in 2011 and later on Instagram in 2012. It was open-sourced at JSConf US in May 2013.
 
 Current version of React.JS is V16.13.0 (26 February 2020).
 
-2. Virtual DOM
+##2. Virtual DOM
 
 ![What is the DOM?](https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model/Introduction) The Document Object Model (DOM) is a programming interface for HTML and XML documents. It represents the page so that programs can change the document structure, style, and content. The DOM represents the document as nodes and objects. That way, programming languages can connect to the page.
 
@@ -28,9 +28,9 @@ What is the benefit of Virtual DOM?
 - Then React figures out which part is new and only updates that specific part in the Virtual DOM
 - Finally, React copies only the new parts of the Virtual DOM to the actual DOM, rather than completely rewriting it.
 
-3.JSX
+##3.JSX
 
-4. Lifecycle
+##4. Lifecycle
 
 
-Let’s Get Started!
+##Let’s Get Started!
