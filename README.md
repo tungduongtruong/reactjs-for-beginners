@@ -51,7 +51,62 @@ class App extends React.Component {
 export default App;
 ```
 
-## 4. Component, Props and State
+## 4. Components, Props and State
+
+What are props?
+
+Props is short for Properties and they are used to pass data between React components. React’s data flow between components is uni-directional (from parent to child only).
+Props are Read-Only. The simple rule of thumb is props should not be changed.
+
+```
+class ParentComponent extends Component {    
+    render() {    
+        return (        
+            <ChildComponent name="First Child" />    
+        );  
+    }
+}
+
+const ChildComponent = (props) => {    
+    return <p>{props.name}</p>; 
+};
+```
+
+What is state? 
+
+Unlike props, State is internal to a component, while props are passed to a component. When state changes, the component responds by re-rendering.
+
+State shouldn’t be modified directly – the setState(...) should be used
+
+```
+import React from 'react'
+
+class Form extends React.Component {
+
+  constructor(props) {
+    super(props)
+    this.state = {
+      input: ''
+    }
+  }
+
+  handleChangeInput = (text) => {
+    this.setState({input: text})
+  }
+
+  render() {
+    const {input} = this.state
+
+    return (
+      <View>
+        <TextInput style={{height: 40, borderColor: 'gray', borderWidth: 1}}
+                   value={input} onChangeText={this.handleChangeInput}/>
+      </View>
+    )
+  }
+
+}
+```
 
 ## 5. Lifecycle
 
