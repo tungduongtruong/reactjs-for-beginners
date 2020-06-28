@@ -21,6 +21,8 @@ Current version of React.JS is V16.13.0 (26 February 2020).
 
 A Web page is a document. This document can be either displayed in the browser window or as the HTML source. But it is the same document in both cases. The Document Object Model (DOM) represents that same document so it can be manipulated. The DOM is an object-oriented representation of the web page, which can be modified with a scripting language such as JavaScript.
 
+![alt text](https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/DOM-model.svg/220px-DOM-model.svg.png "Tree Structure of the Document Object Model")
+
 Each time you make a change in the code, DOM will be completely updated and rewritten. This is an expensive operation and consumes lots of time. That's why, React provides a solution call is Virtual DOM.
 
 What is the benefit of Virtual DOM?
