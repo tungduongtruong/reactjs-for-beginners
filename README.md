@@ -51,7 +51,9 @@ class App extends React.Component {
 export default App;
 ```
 
-## 4. Lifecycle
+## 4. Component, Props and State
+
+## 5. Lifecycle
 
 
 ## Let’s Get Started!
