@@ -55,3 +55,13 @@ export default App;
 
 
 ## Let’s Get Started!
+
+React requires Node.js and if you don’t have Node.js on your computer, you can download it from [https://nodejs.org/en/download/](https://nodejs.org/en/download/).
+
+After installing Nodejs, open your Terminal or Command Prompt and type the following command to create your React app and start.
+
+```
+npx create-react-app my-app
+cd my-app
+npm start
+```
